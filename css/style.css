@@ -32,7 +32,21 @@
 .bg-custom-2 {
   background: #F4FAFD;
 }
+.custom-btn {
+  transition: all .5s;
+  border: 1.5px solid #289BDE !important;
+}
 .custom-btn:hover {
   border: 1px solid #289BDE;
   color: #289BDE !important;
+}
+.custom-outline-btn {
+  color: #289BDE !important;
+  border: 1.5px solid #289BDE !important;
+  font-weight: bold;
+  transition: all .5s;
+}
+.custom-outline-btn:hover {
+  background: #289BDE;
+  color: #fff !important;
 }
