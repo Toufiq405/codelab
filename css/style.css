@@ -11,17 +11,28 @@
 }
 
 .carousel-caption {
-  top: 30%;
+  top: 40%;
   bottom: auto;
 }
 
 .custom-img {
   width: 100%;
+  height: 100%;
 }
 
 .height-600 {
   height: 100vh;
 }
+.custom-color-1 {
+  color: #289BDE !important;
+}
+.bg-custom-1 {
+  background: #289BDE;
+}
 .bg-custom-2 {
   background: #F4FAFD;
+}
+.custom-btn:hover {
+  border: 1px solid #289BDE;
+  color: #289BDE !important;
 }
